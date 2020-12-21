@@ -54,7 +54,7 @@ $row = mysqli_fetch_array($result);
 				<div class="container-fluid">
 					<div class="row mb-2">
 						<div class="col-sm-6">
-							<h1 class="m-0 text-dark">DATA WARGA DESA KAYEN</h1>
+							<h1 class="m-0 text-dark">DATA WARGA DESA WERGU WETAN</h1>
 						</div><!-- /.col -->
 					</div><!-- /.row -->
 				</div><!-- /.container-fluid -->

@@ -16,7 +16,7 @@ $row = mysqli_fetch_array($result);
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-  <title>PEMDES KAYEN || ADMINISTRASI</title>
+  <title>PEMDES WERGU WETAN || ADMINISTRASI</title>
   <!-- DataTables -->
   <link rel="stylesheet" href="plugins/datatables-bs4/css/dataTables.bootstrap4.css">
   <!-- Theme style -->

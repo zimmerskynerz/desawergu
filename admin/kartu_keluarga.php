@@ -213,7 +213,7 @@ from tb_kk inner join tb_warga on tb_kk.no_kk=tb_warga.no_kk group by tb_warga.n
   </script>
   <script type="text/javascript">
     $(document).ready(function() {
-      $(".open_modal").click(function(e) {
+      $('body').on('click', ".open_modal", function(e) {
         var m = $(this).attr("id");
         $.ajax({
           url: "rinci_kk.php",

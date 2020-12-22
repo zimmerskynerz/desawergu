@@ -23,8 +23,8 @@ $jml_bpkh = mysqli_query($conn, "SELECT * FROM `tb_penerima` WHERE id_bantuan='B
 	<thead>
 		<tr>
 			<th><a style="font-family: arial; font-size: 26px; padding-top: 10px; padding-bottom: 10px" colspan="2">LAPORAN PENERIMAAN BANTUAN</a><br>
-				<a style="font-family: arial; font-size: 26px; padding-top: 10px; padding-bottom: 10px" colspan="2">DESA Wergu Wetan, KEC. Kota</a><br>
-				<a style="font-family: arial; font-size: 26px; padding-top: 10px; padding-bottom: 10px" colspan="2">KAB. Kudus - JAWATENGAH</a><br>
+				<a style="font-family: arial; font-size: 26px; padding-top: 10px; padding-bottom: 10px" colspan="2">DESA WERGU WETAN, KEC. KOTA</a><br>
+				<a style="font-family: arial; font-size: 26px; padding-top: 10px; padding-bottom: 10px" colspan="2">KAB. KUDUS - JAWATENGAH</a><br>
 				<a style="font-family: arial; font-size: 10px; padding-top: 10px; padding-bottom: 10px" colspan="2">BPKH : <?= mysqli_num_rows($jml_bpkh); ?>; RTLH : <?= mysqli_num_rows($jml_rtlh); ?>; BPNT : <?= mysqli_num_rows($jml_bpnt); ?>; MCK : <?= mysqli_num_rows($jml_mck); ?>;</a>
 			</th>
 		</tr>

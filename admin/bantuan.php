@@ -190,7 +190,7 @@ $row = mysqli_fetch_array($result);
   </script>
   <script type="text/javascript">
     $(document).ready(function() {
-      $(".open_modal").click(function(e) {
+      $('body').on('click', ".open_modal", function(e) {
         var m = $(this).attr("id");
         $.ajax({
           url: "rinci_relawan.php",
